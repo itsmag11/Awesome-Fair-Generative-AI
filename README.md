@@ -3,6 +3,8 @@ This repository contains a list of works on fairness in generative AI, including
 
 ![overall_structure](./figures/image.webp)
 
+:pushpin: 
+
 ### Table of Contents
 - [0. Definition of Fairness](#0.)
 - [1. Sensitive Attribute Classifiers](#1.)
