@@ -34,7 +34,7 @@ Together, we can build a more comprehensive and representative resource that ref
 
 | Sensitive Attribute | Venue | Paper | Code |
 | -------- |  -------- |  ------- |  ------- |
-| Skin Tone | ECCV 2022 | [TRUST: Towards Racially Unbiased Skin Tone Estimation via Scene Disambiguation](https://arxiv.org/abs/2205.03962) | [![Code](https://img.shields.io/github/stars/HavenFeng/TRUST.svg?style=social&label=Official)](https://github.com/HavenFeng/TRUST) | 
+| Skin Tone | ECCV 2022 | [TRUST: Towards Racially Unbiased Skin Tone Estimation via Scene Disambiguation](https://arxiv.org/abs/2205.03962) *Note: FAIR dataset introduced* | [![Code](https://img.shields.io/github/stars/HavenFeng/TRUST.svg?style=social&label=Official)](https://github.com/HavenFeng/TRUST) | 
 | Skin Color | ICCV 2023 | [Beyond Skin Tone: A Multidimensional Measure of Apparent Skin Color](https://arxiv.org/abs/2309.05148) | [![Code](https://img.shields.io/github/stars/SonyResearch/apparent_skincolor.svg?style=social&label=Official)](https://github.com/SonyResearch/apparent_skincolor) |
 
 
