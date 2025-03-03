@@ -1,4 +1,4 @@
-# Awesome Fair Generative AI
+# Awesome Fair Generative AI [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 This repository contains a list of works on fairness in generative AI, including fairness measurements and bias mitigation methods.
 
 ![overall_structure](./figures/image.webp)
@@ -20,10 +20,10 @@ This repository contains a list of works on fairness in generative AI, including
 <a name="1."></a>
 ## 1. Sensitive Attribute Classifiers
 
-| Sensitive Attribute | Paper | Code |
-| -------- |  -------- |  ------- |
-| Skin Tone | [ECCV 2022] [TRUST: Towards Racially Unbiased Skin Tone Estimation via Scene Disambiguation](https://arxiv.org/abs/2205.03962) | [![Code](https://img.shields.io/github/stars/HavenFeng/TRUST.svg?style=social&label=Official)](https://github.com/HavenFeng/TRUST) | 
-| Skin Color | [ICCV 2023] [Beyond Skin Tone: A Multidimensional Measure of Apparent Skin Color](https://arxiv.org/abs/2309.05148) | [![Code](https://img.shields.io/github/stars/SonyResearch/apparent_skincolor.svg?style=social&label=Official)](https://github.com/SonyResearch/apparent_skincolor) |
+| Sensitive Attribute | Venue | Paper | Code |
+| -------- |  -------- |  ------- |  ------- |
+| Skin Tone | ECCV 2022 | [TRUST: Towards Racially Unbiased Skin Tone Estimation via Scene Disambiguation](https://arxiv.org/abs/2205.03962) | [![Code](https://img.shields.io/github/stars/HavenFeng/TRUST.svg?style=social&label=Official)](https://github.com/HavenFeng/TRUST) | 
+| Skin Color | ICCV 2023 | [Beyond Skin Tone: A Multidimensional Measure of Apparent Skin Color](https://arxiv.org/abs/2309.05148) | [![Code](https://img.shields.io/github/stars/SonyResearch/apparent_skincolor.svg?style=social&label=Official)](https://github.com/SonyResearch/apparent_skincolor) |
 
 
 <a name="2."></a>
