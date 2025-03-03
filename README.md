@@ -3,17 +3,19 @@ This repository contains a list of works on fairness in generative AI, including
 
 ![overall_structure](./figures/image.webp)
 
-### :pushpin: Message
+## 🚀 Get Involved
 
-This repository aims to mark the efforts of researchers from all over the world in boosting fairness in the era of generative AI. I believe it is of great importance to create a fairer world together and hope this work could encourage more people to notice the importance of fairness and inclusiveness in our daily lives.
+This repository is dedicated to highlighting the efforts of researchers from all over the world aimed at enhancing fairness in the realm of generative AI. Recognizing the critical importance of fostering a fairer world, I hope this initiative encourages greater awareness and appreciation for fairness and inclusivity in our daily lives.​
 
-This repository is maintained by me alone. So I acknowledge the lists here may be biased and incomplete. If you want to contribute to this list, here are what you can do:
+As the sole maintainer, I acknowledge that the listings here may be incomplete or reflect certain biases. To enrich and diversify this compilation, your contributions are welcome. You can:​
 
-- raise an [Issue](https://github.com/itsmag11/Awesome-Fair-Generative-AI/issues)
-- [Pull](https://github.com/itsmag11/Awesome-Fair-Generative-AI/pulls) a request
+- raise an [Issue](https://github.com/itsmag11/Awesome-Fair-Generative-AI/issues) to suggest improvements or highlight omissions
+- [Pull](https://github.com/itsmag11/Awesome-Fair-Generative-AI/pulls) a request with additional resources or corrections
 - Contact [Xinyu Hou](https://itsmag11.github.io/) at itsmag11@gmail.com
 
-### Table of Contents
+Together, we can build a more comprehensive and representative resource that reflects the collective commitment to fairness in AI.
+
+## 📖 Table of Contents
 - [0. Definition of Fairness](#0.)
 - [1. Sensitive Attribute Classifiers](#1.)
 - [2. Fairness Analysis](#2.)
