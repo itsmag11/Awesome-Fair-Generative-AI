@@ -28,6 +28,23 @@ Together, we can build a more comprehensive and representative resource that ref
 <a name="0."></a>
 ## 0. Definition of Fairness
 
+> **TL;DR:** We believe a fair AI system should ensure **equal representation** of societal groups, despite divergence from current demographic distributions.
+
+Fairness AI pertains to the principle that AI systems should operate impartially and equitably, ensuring that their outcomes do not favor or disadvantage any particular group. This concept is crucial in preventing the perpetuation or amplification of existing societal biases through AI technologies.
+
+In the context of AI-generated content, such as producing a "photo of a doctor", the representation of different demographics becomes a focal point for assessing fairness. Historically, certain professions have been predominantly occupied by specific demographic groups—often males in the case of doctors. If an AI system generates images reflecting this historical imbalance, it risks reinforcing outdated stereotypes and perpetuating existing biases.
+
+Advocating for equal representation in AI-generated content, even if it diverges from current demographic distributions, serves several vital purposes:
+
+1. **Challenging Stereotypes**: Presenting a balanced mix of male and female doctors in AI-generated images can help dismantle traditional gender roles, encouraging broader societal acceptance of women in medicine and inspiring future generations.
+
+2. **Promoting Inclusivity**: Ensuring diverse representation in AI outputs fosters a sense of belonging among underrepresented groups, reinforcing the notion that these professions are accessible to all, regardless of gender or background.
+
+3. **Mitigating Bias Reinforcement**: By consciously balancing representations, AI systems can avoid perpetuating existing biases, contributing to a more equitable portrayal of various professions.
+
+Research underscores the importance of addressing biases in AI. For instance, studies have shown that AI systems trained on biased data can produce discriminatory outcomes, affecting marginalized groups adversely. Moreover, AI-generated images have been found to over-represent certain demographics, leading to skewed perceptions.
+
+Therefore, striving for equal representation in AI-generated imagery is not merely about reflecting current realities but about shaping a more inclusive and fair future. This approach aligns with ethical AI development practices that seek to prevent the reinforcement of societal biases and promote diversity across all platforms.
 
 <a name="1."></a>
 ## 1. Sensitive Attribute Classifiers
@@ -47,7 +64,7 @@ Together, we can build a more comprehensive and representative resource that ref
 <a name="2.2."></a>
 ### 2.2. Measuring Fairness in Text-to-Image Generation
 
-The general approach to measure fairness of a text-to-image model: 
+The general approach to measure fairness of a text-to-image model involve: 
 1. Generate a number of images using neutral text prompts;
 2. Use [CLIP classifier](https://github.com/openai/CLIP) or pre-trained sensitive attribute classifiers (listed in [Sec.1](#1.)) to classify sesitive attributes of the generated images;
 3. Use **statistical measures** to calculate fairness.
