@@ -16,14 +16,18 @@ As the sole maintainer, I acknowledge that the listings here may be incomplete o
 Together, we can build a more comprehensive and representative resource that reflects the collective commitment to fairness in AI.
 
 ## 📖 Table of Contents
-- [0. Definition of Fairness](#0.)
-- [1. Sensitive Attribute Classifiers](#1.)
-- [2. Fairness Analysis](#2.)
-  - [2.1. Analyzing Fairness in Vision-Language Models (VLM)](#2.1.)
-  - [2.2. Analyzing Fairness in Text-to-Image Generation](#2.2.)
-- [3. Bias Mitigation Methods](#3.)
-  - [3.1. Mitigating Bias in Vision-Language Models (VLM)](#3.1.)
-  - [3.2. Mitigating Bias in Text-to-Image Generation](#3.2.)
+- [Awesome Fair Generative AI ](#awesome-fair-generative-ai-)
+  - [🚀 Get Involved](#-get-involved)
+  - [📖 Table of Contents](#-table-of-contents)
+  - [0. Definition of Fairness](#0-definition-of-fairness)
+  - [1. Sensitive Attribute Classifiers](#1-sensitive-attribute-classifiers)
+  - [2. Fairness Analysis](#2-fairness-analysis)
+    - [2.1. Measuring Fairness in Vision-Language Models (VLM)](#21-measuring-fairness-in-vision-language-models-vlm)
+    - [2.2. Measuring Fairness in Text-to-Image Generation](#22-measuring-fairness-in-text-to-image-generation)
+      - [Statistical Measures](#statistical-measures)
+  - [3. Bias Mitigation Methods](#3-bias-mitigation-methods)
+    - [3.1. Mitigating Bias in Vision-Language Models (VLM)](#31-mitigating-bias-in-vision-language-models-vlm)
+    - [3.2. Mitigating Bias in Text-to-Image Generation](#32-mitigating-bias-in-text-to-image-generation)
 
 <a name="0."></a>
 ## 0. Definition of Fairness
@@ -86,4 +90,7 @@ The general approach to measure fairness of a text-to-image model involve:
 ### 3.2. Mitigating Bias in Text-to-Image Generation
 
 + [ICCV 2023, Oral] [ITI-GEN: Inclusive Text-to-Image Generation](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_ITI-GEN_Inclusive_Text-to-Image_Generation_ICCV_2023_paper.html) [![Website](https://img.shields.io/badge/Website-9cf)](https://czhang0528.github.io/iti-gen) [![Code](https://img.shields.io/github/stars/humansensinglab/ITI-GEN.svg?style=social&label=Official)](https://github.com/humansensinglab/ITI-GEN)
+<!-- + [NeurIPS 2023] [](https://proceedings.neurips.cc/paper_files/paper/2023/hash/220165f9c7f51163b73c8c7fff578b4e-Abstract-Conference.html) -->
++ [AAAI 2024] [Fair Sampling in Diffusion Models through Switching Mechanism](https://arxiv.org/abs/2401.03140)
++ [arXiv 2024] [DebiasDiff: Debiasing Text-to-image Diffusion Models with Self-discovering Latent Attribute Directions](https://arxiv.org/abs/2412.18810) [![Code](https://img.shields.io/github/stars/leigest519/DebiasDiff.svg?style=social&label=Official)](https://github.com/leigest519/DebiasDiff)
 
