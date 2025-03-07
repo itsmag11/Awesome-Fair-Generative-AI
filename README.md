@@ -19,17 +19,15 @@ Together, we can build a more comprehensive and representative resource that ref
 - [Awesome Fair Generative AI ](#awesome-fair-generative-ai-)
   - [🚀 Get Involved](#-get-involved)
   - [📖 Table of Contents](#-table-of-contents)
-  - [0. Definition of Fairness](#0-definition-of-fairness)
   - [1. Sensitive Attribute Classifiers](#1-sensitive-attribute-classifiers)
-  - [2. Fairness Analysis](#2-fairness-analysis)
-    - [2.1. Measuring Fairness in Vision-Language Models (VLM)](#21-measuring-fairness-in-vision-language-models-vlm)
-    - [2.2. Measuring Fairness in Text-to-Image Generation](#22-measuring-fairness-in-text-to-image-generation)
-      - [Statistical Measures](#statistical-measures)
+  - [2. Bias Analysis](#2-bias-analysis)
   - [3. Bias Mitigation Methods](#3-bias-mitigation-methods)
-    - [3.1. Mitigating Bias in Vision-Language Models (VLM)](#31-mitigating-bias-in-vision-language-models-vlm)
-    - [3.2. Mitigating Bias in Text-to-Image Generation](#32-mitigating-bias-in-text-to-image-generation)
+    - [3.1. Mitigating Bias in Text-to-Image Generation](#31-mitigating-bias-in-text-to-image-generation)
+  - [4. Evaluation Metrics](#4-evaluation-metrics)
+    - [4.1. Measuring Fairness in Text-to-Image Generation](#41-measuring-fairness-in-text-to-image-generation)
+      - [Statistical Measures](#statistical-measures)
 
-<a name="0."></a>
+<!-- <a name="0."></a>
 ## 0. Definition of Fairness
 
 > **TL;DR:** We believe a fair AI system should ensure **equal representation** of societal groups, despite divergence from current demographic distributions.
@@ -48,7 +46,7 @@ Advocating for equal representation in AI-generated content, even if it diverges
 
 Research underscores the importance of addressing biases in AI. For instance, studies have shown that AI systems trained on biased data can produce discriminatory outcomes, affecting marginalized groups adversely. Moreover, AI-generated images have been found to over-represent certain demographics, leading to skewed perceptions.
 
-Therefore, striving for equal representation in AI-generated imagery is not merely about reflecting current realities but about shaping a more inclusive and fair future. This approach aligns with ethical AI development practices that seek to prevent the reinforcement of societal biases and promote diversity across all platforms.
+Therefore, striving for equal representation in AI-generated imagery is not merely about reflecting current realities but about shaping a more inclusive and fair future. This approach aligns with ethical AI development practices that seek to prevent the reinforcement of societal biases and promote diversity across all platforms. -->
 
 <a name="1."></a>
 ## 1. Sensitive Attribute Classifiers
@@ -60,13 +58,72 @@ Therefore, striving for equal representation in AI-generated imagery is not mere
 
 
 <a name="2."></a>
-## 2. Fairness Analysis
+## 2. Bias Analysis
 
-<a name="2.1."></a>
-### 2.1. Measuring Fairness in Vision-Language Models (VLM)
++ [NeurIPS 2018] [Bias and Generalization in Deep Generative Models: An Empirical Study](https://papers.nips.cc/paper_files/paper/2018/hash/5317b6799188715d5e00a638a4278901-Abstract.html)
 
-<a name="2.2."></a>
-### 2.2. Measuring Fairness in Text-to-Image Generation
++ [VAST 2019] [FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning](https://arxiv.org/abs/1904.05419)
+  
++ [ICCV 2023] [DALL-Eval: Probing the Reasoning Skills and Social Biases of Text-to-Image Generation Models](https://arxiv.org/abs/2202.04053)
+  [![Code](https://img.shields.io/github/stars/j-min/DallEval.svg?style=social&label=Official)](https://github.com/j-min/DallEval)
+
++ [NeurIPS 2023, Spotlight] [Stable Bias: Evaluating Societal Representations in Diffusion Models](https://arxiv.org/abs/2303.11408)
+
+<a name="3."></a>
+## 3. Bias Mitigation Methods
+
+<a name="3.1."></a>
+### 3.1. Mitigating Bias in Text-to-Image Generation
+
++ [NeurIPS 2022] [Generative Visual Prompt: Unifying Distributional Control of Pre-Trained Generative Models](https://arxiv.org/abs/2209.06970)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://chenwu.io/PromptGen/) 
+  [![Code](https://img.shields.io/github/stars/ChenWu98/Generative-Visual-Prompt.svg?style=social&label=Official)](https://github.com/ChenWu98/Generative-Visual-Prompt)
+
++ [EMNLP 2022, Oral] [How well can Text-to-Image Generative Models understand Ethical Natural Language Interventions?](https://arxiv.org/abs/2210.15230)
+  [![Code](https://img.shields.io/github/stars/Hritikbansal/entigen_emnlp.svg?style=social&label=Official)](https://github.com/Hritikbansal/entigen_emnlp)
+
++ [CVPR 2023] [Safe Latent Diffusion: Mitigating Inappropriate Degeneration in Diffusion Models](https://arxiv.org/abs/2211.05105)
+  [![Code](https://img.shields.io/github/stars/ml-research/safe-latent-diffusion.svg?style=social&label=Official)](https://github.com/ml-research/safe-latent-diffusion)
+
++ [arXiv 2023] [Fair Diffusion: Instructing Text-to-Image Generation Models on Fairness](https://arxiv.org/abs/2302.10893)
+  [![Code](https://img.shields.io/github/stars/ml-research/Fair-Diffusion.svg?style=social&label=Official)](https://github.com/ml-research/Fair-Diffusion)
+
++ [ICCV 2023, Oral] [ITI-GEN: Inclusive Text-to-Image Generation](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_ITI-GEN_Inclusive_Text-to-Image_Generation_ICCV_2023_paper.html) 
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://czhang0528.github.io/iti-gen) 
+  [![Code](https://img.shields.io/github/stars/humansensinglab/ITI-GEN.svg?style=social&label=Official)](https://github.com/humansensinglab/ITI-GEN)
+
++ [WACV 2024] [Unified Concept Editing in Diffusion Models](https://arxiv.org/abs/2308.14761)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://unified.baulab.info/) 
+  [![Code](https://img.shields.io/github/stars/rohitgandikota/unified-concept-editing.svg?style=social&label=Official)](https://github.com/rohitgandikota/unified-concept-editing)
+
++ [arXiv 2023] [What is a Fair Diffusion Model? Designing Generative Text-To-Image Models to Incorporate Various Worldviews](http://arxiv.org/abs/2309.09944)
+
++ [AAAI 2024] [Fair Sampling in Diffusion Models through Switching Mechanism](https://arxiv.org/abs/2401.03140) 
+  [![Code](https://img.shields.io/github/stars/uzn36/AttributeSwitching.svg?style=social&label=Official)](https://github.com/uzn36/AttributeSwitching)
+
++ [arXiv 2024] [MIST: Mitigating Intersectional Bias with Disentangled Cross-Attention Editing in Text-to-Image Diffusion Models](https://arxiv.org/abs/2403.19738)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://mist-diffusion.github.io/) 
+
++ [arXiv 2024] [AITTI: Learning Adaptive Inclusive Token for Text-to-Image Generation](https://arxiv.org/abs/2406.12805)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://itsmag11.github.io/AITTI/) 
+  [![Code](https://img.shields.io/github/stars/itsmag11/AITTI.svg?style=social&label=Official)](https://github.com/itsmag11/AITTI)
+
++ [NeurIPS 2024, Spotlight] [Association of Objects May Engender Stereotypes: Mitigating Association-Engendered Stereotypes in Text-to-Image Generation](https://proceedings.neurips.cc/paper_files/paper/2024/hash/5c7465e4a236b56226ca221f3d16bf2b-Abstract-Conference.html)
+  
++ [NeurIPS 2024] [FairQueue: Rethinking Prompt Learning for Fair Text-to-Image Generation](https://arxiv.org/abs/2410.18615)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://sutd-visual-computing-group.github.io/FairQueue/) 
+  [![Code](https://img.shields.io/github/stars/Bearwithchris/FairQueue_Code.svg?style=social&label=Official)](https://github.com/Bearwithchris/FairQueue_Code)
+
++ [arXiv 2024] [DebiasDiff: Debiasing Text-to-image Diffusion Models with Self-discovering Latent Attribute Directions](https://arxiv.org/abs/2412.18810) 
+  [![Code](https://img.shields.io/github/stars/leigest519/DebiasDiff.svg?style=social&label=Official)](https://github.com/leigest519/DebiasDiff)
+
+<!-- <a name="3.2."></a>
+### 3.2. Mitigating Bias in Vision-Language Models (VLM) -->
+
+## 4. Evaluation Metrics
+
+<a name="4.1."></a>
+### 4.1. Measuring Fairness in Text-to-Image Generation
 
 The general approach to measure fairness of a text-to-image model involve: 
 1. Generate a number of images using neutral text prompts;
@@ -79,18 +136,5 @@ The general approach to measure fairness of a text-to-image model involve:
 | -------- |  -------- |  ------- |
 | Distribution Discrepancy $\mathcal{D}_{KL}$ | [ITI-GEN: Inclusive Text-to-Image Generation](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_ITI-GEN_Inclusive_Text-to-Image_Generation_ICCV_2023_paper.html) | KL Divergence of ideal and real sensitive attribute distribution |
 
-
-<a name="3."></a>
-## 3. Bias Mitigation Methods
-
-<a name="3.1."></a>
-### 3.1. Mitigating Bias in Vision-Language Models (VLM)
-
-<a name="3.2."></a>
-### 3.2. Mitigating Bias in Text-to-Image Generation
-
-+ [ICCV 2023, Oral] [ITI-GEN: Inclusive Text-to-Image Generation](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_ITI-GEN_Inclusive_Text-to-Image_Generation_ICCV_2023_paper.html) [![Website](https://img.shields.io/badge/Website-9cf)](https://czhang0528.github.io/iti-gen) [![Code](https://img.shields.io/github/stars/humansensinglab/ITI-GEN.svg?style=social&label=Official)](https://github.com/humansensinglab/ITI-GEN)
-<!-- + [NeurIPS 2023] [](https://proceedings.neurips.cc/paper_files/paper/2023/hash/220165f9c7f51163b73c8c7fff578b4e-Abstract-Conference.html) -->
-+ [AAAI 2024] [Fair Sampling in Diffusion Models through Switching Mechanism](https://arxiv.org/abs/2401.03140)
-+ [arXiv 2024] [DebiasDiff: Debiasing Text-to-image Diffusion Models with Self-discovering Latent Attribute Directions](https://arxiv.org/abs/2412.18810) [![Code](https://img.shields.io/github/stars/leigest519/DebiasDiff.svg?style=social&label=Official)](https://github.com/leigest519/DebiasDiff)
-
+<!-- <a name="4.2."></a>
+### 4.2. Measuring Fairness in Vision-Language Models (VLM) -->
