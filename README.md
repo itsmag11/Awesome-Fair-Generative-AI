@@ -1,4 +1,5 @@
-# Awesome Fair Generative AI [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) Awesome Fair Generative AI 
+
 This repository contains a list of works on fairness in generative AI, including fairness measurements and bias mitigation methods.
 
 ![overall_structure](./figures/image.webp)
@@ -11,12 +12,12 @@ As the sole maintainer, I acknowledge that the listings here may be incomplete o
 
 - raise an [Issue](https://github.com/itsmag11/Awesome-Fair-Generative-AI/issues) to suggest improvements or highlight omissions
 - [Pull](https://github.com/itsmag11/Awesome-Fair-Generative-AI/pulls) a request with additional resources or corrections
-- Contact [Xinyu Hou](https://itsmag11.github.io/) at itsmag11@gmail.com
+- Contact me at itsmag11@gmail.com
 
 Together, we can build a more comprehensive and representative resource that reflects the collective commitment to fairness in AI.
 
 ## 📖 Table of Contents
-- [Awesome Fair Generative AI ](#awesome-fair-generative-ai-)
+- [ Awesome Fair Generative AI](#-awesome-fair-generative-ai)
   - [🚀 Get Involved](#-get-involved)
   - [📖 Table of Contents](#-table-of-contents)
   - [1. Sensitive Attribute Classifiers](#1-sensitive-attribute-classifiers)
